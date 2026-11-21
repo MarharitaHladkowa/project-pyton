@@ -37,3 +37,6 @@ print(chars)
 chars = ["a", "c"]
 chars.insert(1, "b")
 print(chars)
+chars = ['a', 'b']
+chars.clear() 
+print(chars)
