@@ -40,3 +40,6 @@ print(chars)
 chars = ['a', 'b']
 chars.clear() 
 print(chars)
+chars = ['a', 'b', 'c', 'd']
+c_ind = chars.index('c')
+print(f"Індекс літери 'c': {c_ind}")
