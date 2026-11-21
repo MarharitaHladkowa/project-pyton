@@ -13,3 +13,5 @@ print(hello_string)
 ratio = 10  # коефіцієнт корекції
 result = 8 * (ratio + 5) - ratio ** 2
 print(result)
+x = 10
+print(f"Значення x: {x}")
