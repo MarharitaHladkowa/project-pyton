@@ -42,3 +42,11 @@ my_list.append(4)
 print(my_list)
 my_list.remove("Hello")
 print(my_list)
+some_iterable = ["a", "b", "c"]
+some_iterable = ["a", "b", "c"]
+first_letter = some_iterable[-3]
+middle_one = some_iterable[-2]
+last_letter = some_iterable[-1]
+print(f"Перша літера: {first_letter}")
+print(f"Середня літера: {middle_one}")
+print(f"Остання літера: {last_letter}")
