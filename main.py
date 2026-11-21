@@ -10,3 +10,6 @@ print(is_adult)
 name = "Oleg"
 hello_string = f"Hello, {name}!"
 print(hello_string)
+ratio = 10  # коефіцієнт корекції
+result = 8 * (ratio + 5) - ratio ** 2
+print(result)
