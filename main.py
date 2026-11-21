@@ -7,3 +7,6 @@ print(joined_string)
 age = 18
 is_adult = age > 18
 print(is_adult)
+name = "Oleg"
+hello_string = f"Hello, {name}!"
+print(hello_string)
