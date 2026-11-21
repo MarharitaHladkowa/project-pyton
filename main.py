@@ -34,3 +34,6 @@ chars = ['a', 'b', 'c']
 numbers = [1, 2]
 chars.extend(numbers)
 print(chars)
+chars = ["a", "c"]
+chars.insert(1, "b")
+print(chars)
