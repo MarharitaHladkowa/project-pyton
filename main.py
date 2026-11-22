@@ -56,6 +56,7 @@ print(my_dict["name"], my_dict["age"], my_dict["city"])
 my_dict["age"] = 26  # Оновлення значення ключа 'age'
 my_dict["country"] = "USA"  # Додавання нового ключа 'country'
 del my_dict["age"]
+my_dict.update({"email": "alice@example.com", "age": 26})
 print(my_dict)
 print("name" in my_dict)
 print("age" in my_dict)
