@@ -77,6 +77,8 @@ print(numbers)  # {1, 2}
 a = {1, 2, 3}
 b = {3, 4, 5}
 three = (a & b)
+print(a.symmetric_difference(b))  # {1, 2, 4, 5}
+print(a ^ b)  # {1, 2, 4, 5}
 print(three)
 
 
