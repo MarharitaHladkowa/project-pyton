@@ -72,6 +72,6 @@ numbers = {1, 2, 3}
 numbers.add(4)
 print(numbers)  # {1, 2, 3, 4}
 numbers = {1, 2, 3}
-numbers.remove(3)
+numbers.discard(4)
 print(numbers)  # {1, 2}
 
