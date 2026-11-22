@@ -80,7 +80,8 @@ three = (a & b)
 print(a.symmetric_difference(b))  # {1, 2, 4, 5}
 print(a ^ b)  # {1, 2, 4, 5}
 print(three)
-
+print(a.union(b))  # {1, 2, 3, 4, 5}
+print(a | b)  # {1, 2, 3, 4, 5}
 
 
 
