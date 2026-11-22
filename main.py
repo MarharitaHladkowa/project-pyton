@@ -51,4 +51,7 @@ print(len(my_list))
 nums = [3, 1, 4, 1, 5, 9, 2]
 nums.sort(reverse=True)  # сортування за зростанням
 print(nums)  # Виведе [9, 5, 4, 3, 2, 1, 1]
+my_dict = {"name": "Alice", "age": 25, "city": "New York"}
+print(my_dict["name"])  # Виведе 'Alice'
+
 
