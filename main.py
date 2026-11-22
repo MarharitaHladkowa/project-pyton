@@ -82,6 +82,11 @@ print(a ^ b)  # {1, 2, 4, 5}
 print(three)
 print(a.union(b))  # {1, 2, 3, 4, 5}
 print(a | b)  # {1, 2, 3, 4, 5}
+frozenset([1, 2, 3, 4, 5])
+s = "Hello world!"
+print(s[0])# H
+print(s[-1])# !
+
 
 
 
