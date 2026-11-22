@@ -60,7 +60,8 @@ my_dict.update({"email": "alice@example.com", "age": 26})
 print(my_dict)
 print("name" in my_dict)
 print("age" in my_dict)
-
+new_dict = my_dict.copy()
+print(new_dict)
 
 
 
