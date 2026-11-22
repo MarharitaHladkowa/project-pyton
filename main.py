@@ -64,6 +64,14 @@ new_dict = my_dict.copy()
 age = new_dict.get("age")  # Поверне 25
 gender = new_dict.get("gender")  # Поверне None, оскільки "gender" немає в словнику
 print(gender)
+lst = [1, 2, 3, 1, 2, 2, 3, 4, 1]
+d_lst = set(lst)
 
-
+print(d_lst)
+numbers = {1, 2, 3}
+numbers.add(4)
+print(numbers)  # {1, 2, 3, 4}
+numbers = {1, 2, 3}
+numbers.remove(3)
+print(numbers)  # {1, 2}
 
