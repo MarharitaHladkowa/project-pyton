@@ -84,7 +84,6 @@ print(a.union(b))  # {1, 2, 3, 4, 5}
 print(a | b)  # {1, 2, 3, 4, 5}
 frozenset([1, 2, 3, 4, 5])
 
-s = "Bill Jons"
-print(s.startswith("Bi"))  # Виведе True
-
+s = "hello.jpg"
+print(s.endswith("jpg"))  # Виведе True
 
