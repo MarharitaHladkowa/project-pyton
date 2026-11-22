@@ -84,9 +84,10 @@ print(a.union(b))  # {1, 2, 3, 4, 5}
 print(a | b)  # {1, 2, 3, 4, 5}
 frozenset([1, 2, 3, 4, 5])
 
-s = "Hello" 
-print(s.upper()) # Виведе 'HELLO'
 
+
+s = "Some Text"
+print(s.lower())  # Виведе 'some text'
 
 
 
