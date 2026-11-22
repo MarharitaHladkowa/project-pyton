@@ -61,7 +61,9 @@ print(my_dict)
 print("name" in my_dict)
 print("age" in my_dict)
 new_dict = my_dict.copy()
-print(new_dict)
+age = new_dict.get("age")  # Поверне 25
+gender = new_dict.get("gender")  # Поверне None, оскільки "gender" немає в словнику
+print(gender)
 
 
 
