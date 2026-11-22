@@ -84,10 +84,7 @@ print(a.union(b))  # {1, 2, 3, 4, 5}
 print(a | b)  # {1, 2, 3, 4, 5}
 frozenset([1, 2, 3, 4, 5])
 
-
-
-s = "Some Text"
-print(s.lower())  # Виведе 'some text'
-
+s = "Bill Jons"
+print(s.startswith("Bi"))  # Виведе True
 
 
