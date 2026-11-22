@@ -74,4 +74,11 @@ print(numbers)  # {1, 2, 3, 4}
 numbers = {1, 2, 3}
 numbers.discard(4)
 print(numbers)  # {1, 2}
+a = {1, 2, 3}
+b = {3, 4, 5}
+three = (a & b)
+print(three)
+
+
+
 
