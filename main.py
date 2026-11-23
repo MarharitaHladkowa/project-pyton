@@ -14,3 +14,17 @@ book_pages = book.get("pages")
 print(book_year)  # 2024
 print(book_pages)  # 0
 print(book)  # словарь уже без ключа "year"
+cat = {
+    "nick": "Whiskers",
+    "age": 3,
+    "characteristics": ["игривый", "ласковый"]
+}
+
+cat_age = cat.get("age")
+cat_name = cat.get("nick")
+
+cat.update({"color": "серый", "is_active": True})
+
+print(cat_name)
+print(cat_age)
+print(cat)
