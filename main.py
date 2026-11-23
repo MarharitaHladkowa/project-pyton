@@ -86,4 +86,6 @@ frozenset([1, 2, 3, 4, 5])
 
 s = "hello.jpg"
 print(s.endswith("jpg"))  # Виведе True
-
+file_name= "Python_Lesson.PY"
+file_upper= file_name.upper()
+print(file_upper)  # Виведе "PYTHON_LESSON.PY"
