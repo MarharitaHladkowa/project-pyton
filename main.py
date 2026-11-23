@@ -28,3 +28,7 @@ cat.update({"color": "серый", "is_active": True})
 print(cat_name)
 print(cat_age)
 print(cat)
+my_list = [10, 20, 30]
+some_data = ["Python", 3.12]
+my_list.extend(some_data)
+print(my_list)  # [10, 20, 30, "Python", 3.12]
