@@ -1,7 +1,7 @@
 
-scores = [7, 3, 9, 3, 5]
-scores_copy = scores.copy()
-scores_copy = scores[:]
-scores_copy.sort()
-scores_desc = sorted(scores, reverse=True)
-print(scores)  # [9, 7, 5, 3, 3]
+first = {1, 2, 3}
+second = {3, 4, 5}
+first.add(6)
+first.discard(2)
+all_numbers = first.union(second)
+print(all_numbers)
