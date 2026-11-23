@@ -88,4 +88,6 @@ s = "hello.jpg"
 print(s.endswith("jpg"))  # Виведе True
 file_name= "Python_Lesson.PY"
 file_upper= file_name.upper()
+file_lower = file_name.lower()
 print(file_upper)  # Виведе "PYTHON_LESSON.PY"
+print(file_lower)  # Виведе "python_lesson.py"
