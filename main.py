@@ -1,9 +1,8 @@
-number = 18
-if number % 2 == 0 and number % 9 == 0:
-    print("FizzBuzz")
-elif number % 2 == 0:
-    print("Fizz")
-elif number % 9 == 0:
-    print("Buzz")
-else:
-    print(number)
+x = int(input("X: "))
+y = int(input("Y: "))
+
+if x == 0:
+    print("X can`t be equal to zero")
+    x = int(input("X: "))
+
+result = y / x
