@@ -1,9 +1,9 @@
-num = int(input("Введіть число: "))
-
-length = len(str(num))
-
-if length == 2 and num % 2 == 0:
-    print("Парне двозначне число")
+number = 18
+if number % 2 == 0 and number % 9 == 0:
+    print("FizzBuzz")
+elif number % 2 == 0:
+    print("Fizz")
+elif number % 9 == 0:
+    print("Buzz")
 else:
-    print("Ні")
-
+    print(number)
