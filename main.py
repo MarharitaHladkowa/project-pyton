@@ -1,5 +1,6 @@
-result = None
-if result:
-    print(result)
-else:
-    print("Result is None, do something")
+a = [1, 2, 3]
+b = a
+c = [1, 2, 3]
+
+print(a is b)  # True
+print(a is c)  # False
