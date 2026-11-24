@@ -1,5 +1,5 @@
-colors = ["red", "blue", "green", "blue", "yellow"]
-blue_count = colors.count("blue")
-print(blue_count)  # 2
-green_index = colors.index("green")
-print(green_index)  # 2
+my_list = []
+my_list.insert(0, 2024)
+my_list.insert(1, "Python")
+my_list.insert(2, 3.12)
+print(my_list)
