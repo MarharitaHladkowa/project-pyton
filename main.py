@@ -1,7 +1,9 @@
-name = "Taras"
-age = 22
-has_driver_licence = True
+num = int(input("Введіть число: "))
 
-if name and age >= 18 and has_driver_licence:
-    print(f"User {name} can rent a car")
+length = len(str(num))
+
+if length == 2 and num % 2 == 0:
+    print("Парне двозначне число")
+else:
+    print("Ні")
 
