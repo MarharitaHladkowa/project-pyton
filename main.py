@@ -1,6 +1,7 @@
-a = [1, 2, 3]
-b = a
-c = [1, 2, 3]
+name = "Taras"
+age = 22
+has_driver_licence = True
 
-print(a is b)  # True
-print(a is c)  # False
+if name and age >= 18 and has_driver_licence:
+    print(f"User {name} can rent a car")
+
