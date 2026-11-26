@@ -1,3 +1,3 @@
-is_nice = False
-state = "nice" if is_nice else "not nice"
-print(f"The state is: {state}")
+some_data = 56
+msg = some_data or "Не було повернено даних"
+print(msg)
