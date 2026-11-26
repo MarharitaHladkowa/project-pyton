@@ -1,11 +1,14 @@
-fruit = "apple"
+point = (1, 0)
 
-match fruit:
-    case "apple":
-        print("This is an apple.")
-    case "banana":
-        print("This is a banana.")
-    case "orange":
-        print("This is an orange.")
+match point:
+    case (0, 0):
+        print("Точка в центрі координат")  
+    case (0, y):
+        print(f"Точка лежить на осі Y: y={y}")  
+    case (x, 0):
+        print(f"Точка лежить на осі X: x={x}") 
+    case (x, y):
+        print(f"Точка має координати:  x={x}, y={y}") 
     case _:
-        print("Unknown fruit.")
+        print("Це не точка")
+
