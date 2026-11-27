@@ -1,3 +1,3 @@
-fruits = ["яблоко", "банан", "апельсин"]
-for index in fruits:
+
+for index in range(10,16):
     print(index)
