@@ -1,3 +1,5 @@
-
-for index in range(10,16):
-    print(index)
+banan="banana"
+count= 0
+for i in banan:
+    count+=1
+print(count)
