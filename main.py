@@ -1,2 +1,6 @@
-for index in range(10, 0, -1): 
-    print (index)
+for index in range(1,10): 
+    if index % 2 == 0:
+        print(f"{index} четное")
+    else:
+        print(f"{index} нечетное")
+    
