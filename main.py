@@ -1,6 +1,9 @@
 numbers = [4, 12, 8, 21, 10, 15]
-total = 0
+new_list = []
 for index in numbers : 
     if index > 10 :
-        total += 1
-print (total)
+        new_list.append(index)
+
+     
+    
+print (new_list)
