@@ -1,7 +1,7 @@
-numbers = [10, 20, 30, 40]
-
-for index in range(len(numbers)):
-    value = numbers[index]
-    print(index, "->", value)
-
+numbers = [12, 45, 7, 31, 20]
+maximum = numbers[0]
+for number in numbers:
+    if number > maximum:
+        maximum = number
+print (maximum)
  
