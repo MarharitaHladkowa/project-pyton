@@ -1,7 +1,7 @@
-numbers = [12, 45, 7, 31, 20]
-maximum = numbers[0]
+numbers = [18, 6, 27, 3, 14]
+minimum= numbers[0]
 for number in numbers:
-    if number > maximum:
-        maximum = number
-print (maximum)
+    if number < minimum:
+        minimum = number
+print (minimum)
  
