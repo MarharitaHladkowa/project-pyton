@@ -1,7 +1,6 @@
-numbers = [-4, 7, 0, -2, 5, 3]
-count = 0
-for index in numbers:
-    if index > 0 :
-        count = count + index
-print (count)
- 
+numbers = [4, 12, 8, 21, 10, 15]
+total = 0
+for index in numbers : 
+    if index > 10 :
+        total += 1
+print (total)
