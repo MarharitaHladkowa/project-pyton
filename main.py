@@ -1,5 +1,6 @@
-numbers = [3, 5, 2, 7]
+numbers = [14, 3, 9, 21, 6, 10]
 new_list = []
 for index in numbers:
-        new_list.append(index*2)
+        if index<10:
+         new_list.append(index)
 print (new_list)
