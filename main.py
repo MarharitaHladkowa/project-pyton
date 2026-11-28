@@ -1,7 +1,7 @@
-numbers = [18, 6, 27, 3, 14]
-minimum= numbers[0]
+numbers = [8, 3, 10, 5, 2, 7]
+count = 0
 for number in numbers:
-    if number < minimum:
-        minimum = number
-print (minimum)
+    if number % 2 == 0:
+        count += 1
+print (count)
  
