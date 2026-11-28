@@ -1,6 +1,6 @@
-numbers = [4, 7, 10, 3, 8, 5]
+numbers = [1, 2, 2, 3, 4, 4, 4]
 new_list = []
-for index in range(len(numbers)):
-        if index%2==0:
-         new_list.append(numbers[index])
-print (new_lisewt)
+for index in (numbers):
+         if numbers.count(index)>1 and index not in new_list:
+                 new_list.append(index)
+print (new_list)
