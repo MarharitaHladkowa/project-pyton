@@ -1,7 +1,7 @@
-numbers = [8, 3, 10, 5, 2, 7]
+numbers = [-4, 7, 0, -2, 5, 3]
 count = 0
-for number in numbers:
-    if number % 2 == 0:
-        count += 1
+for index in numbers:
+    if index > 0 :
+        count = count + index
 print (count)
  
